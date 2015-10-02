@@ -133,128 +133,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="maxim">
-<description>&lt;b&gt;Maxim Components&lt;/b&gt;&lt;p&gt;
-
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="DIL24-3">
-<description>&lt;b&gt;Dual In Line Package&lt;/b&gt; 0.3 inch</description>
-<wire x1="-14.986" y1="-0.635" x2="-14.986" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-14.986" y1="0.635" x2="-14.986" y2="-0.635" width="0.1524" layer="21" curve="-180"/>
-<wire x1="14.986" y1="-2.794" x2="14.986" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-14.986" y1="-2.794" x2="14.986" y2="-2.794" width="0.1524" layer="21"/>
-<wire x1="-14.986" y1="2.794" x2="14.986" y2="2.794" width="0.1524" layer="21"/>
-<wire x1="-14.986" y1="2.794" x2="-14.986" y2="0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="-3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="-1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="1.27" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="3.81" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="6.35" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="8.89" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="11.43" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="13.97" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="15" x="8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="16" x="6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="17" x="3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="18" x="1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="19" x="-1.27" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="20" x="-3.81" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="21" x="-6.35" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="22" x="-8.89" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="23" x="-11.43" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="24" x="-13.97" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<text x="-15.2908" y="-2.667" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-13.462" y="-0.889" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="MAX7219">
-<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="-10.16" y1="-22.86" x2="7.62" y2="-22.86" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.4064" layer="94"/>
-<text x="-10.16" y="20.955" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="DIG2" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
-<pin name="DIG3" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
-<pin name="DIG4" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
-<pin name="DIG5" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
-<pin name="DIG6" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="DIG7" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
-<pin name="SEGA" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="SEGB" x="12.7" y="-5.08" length="middle" direction="out" rot="R180"/>
-<pin name="SEGC" x="12.7" y="-7.62" length="middle" direction="out" rot="R180"/>
-<pin name="SEGD" x="12.7" y="-10.16" length="middle" direction="out" rot="R180"/>
-<pin name="SEGE" x="12.7" y="-12.7" length="middle" direction="out" rot="R180"/>
-<pin name="SEGF" x="12.7" y="-15.24" length="middle" direction="out" rot="R180"/>
-<pin name="SEGG" x="12.7" y="-17.78" length="middle" direction="out" rot="R180"/>
-<pin name="SEGDP" x="12.7" y="-20.32" length="middle" direction="out" rot="R180"/>
-<pin name="DIG1" x="12.7" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="DIG0" x="12.7" y="17.78" length="middle" direction="out" rot="R180"/>
-<pin name="DIN" x="-15.24" y="7.62" length="middle" direction="in"/>
-<pin name="DOUT" x="-15.24" y="5.08" length="middle" direction="out"/>
-<pin name="LOAD" x="-15.24" y="12.7" length="middle" direction="in"/>
-<pin name="CLK" x="-15.24" y="17.78" length="middle" direction="in" function="clk"/>
-<pin name="ISET" x="-15.24" y="0" length="middle" direction="in"/>
-<pin name="GND@2" x="-15.24" y="-20.32" length="middle" direction="pwr"/>
-<pin name="GND@1" x="-15.24" y="-17.78" length="middle" direction="pwr"/>
-<pin name="VCC" x="-15.24" y="-15.24" length="middle" direction="pwr"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MAX7219CNG" prefix="IC">
-<description>&lt;b&gt;LED DISPLAY DRIVER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MAX7219" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DIL24-3">
-<connects>
-<connect gate="G$1" pin="CLK" pad="13"/>
-<connect gate="G$1" pin="DIG0" pad="2"/>
-<connect gate="G$1" pin="DIG1" pad="11"/>
-<connect gate="G$1" pin="DIG2" pad="6"/>
-<connect gate="G$1" pin="DIG3" pad="7"/>
-<connect gate="G$1" pin="DIG4" pad="3"/>
-<connect gate="G$1" pin="DIG5" pad="10"/>
-<connect gate="G$1" pin="DIG6" pad="5"/>
-<connect gate="G$1" pin="DIG7" pad="8"/>
-<connect gate="G$1" pin="DIN" pad="1"/>
-<connect gate="G$1" pin="DOUT" pad="24"/>
-<connect gate="G$1" pin="GND@1" pad="4"/>
-<connect gate="G$1" pin="GND@2" pad="9"/>
-<connect gate="G$1" pin="ISET" pad="18"/>
-<connect gate="G$1" pin="LOAD" pad="12"/>
-<connect gate="G$1" pin="SEGA" pad="14"/>
-<connect gate="G$1" pin="SEGB" pad="16"/>
-<connect gate="G$1" pin="SEGC" pad="20"/>
-<connect gate="G$1" pin="SEGD" pad="23"/>
-<connect gate="G$1" pin="SEGDP" pad="22"/>
-<connect gate="G$1" pin="SEGE" pad="21"/>
-<connect gate="G$1" pin="SEGF" pad="15"/>
-<connect gate="G$1" pin="SEGG" pad="17"/>
-<connect gate="G$1" pin="VCC" pad="19"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="MAXIM" constant="no"/>
-<attribute name="MPN" value="MAX7219CNG" constant="no"/>
-<attribute name="OC_FARNELL" value="1523914" constant="no"/>
-<attribute name="OC_NEWARK" value="34C4018" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="atmel">
 <description>&lt;b&gt;AVR Devices&lt;/b&gt;&lt;p&gt;
 Configurable logic, microcontrollers, nonvolatile memories&lt;p&gt;
@@ -9280,6 +9158,173 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="max7219">
+<packages>
+<package name="SO24L">
+<description>&lt;b&gt;Small Outline Package&lt;/b&gt;</description>
+<wire x1="7.366" y1="3.7338" x2="-7.366" y2="3.7338" width="0.1524" layer="21"/>
+<wire x1="7.366" y1="-3.7338" x2="7.747" y2="-3.3528" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.747" y1="3.3528" x2="-7.366" y2="3.7338" width="0.1524" layer="21" curve="-90"/>
+<wire x1="7.366" y1="3.7338" x2="7.747" y2="3.3528" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-7.747" y1="-3.3528" x2="-7.366" y2="-3.7338" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.366" y1="-3.7338" x2="7.366" y2="-3.7338" width="0.1524" layer="21"/>
+<wire x1="7.747" y1="-3.3528" x2="7.747" y2="3.3528" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="3.3528" x2="-7.747" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="1.27" x2="-7.747" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="-1.27" x2="-7.747" y2="-3.3528" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="-3.3782" x2="7.747" y2="-3.3782" width="0.0508" layer="21"/>
+<wire x1="-7.747" y1="1.27" x2="-7.747" y2="-1.27" width="0.1524" layer="21" curve="-180"/>
+<smd name="1" x="-6.985" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="2" x="-5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="3" x="-4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="4" x="-3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="5" x="-1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="6" x="-0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="7" x="0.635" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="8" x="1.905" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="17" x="1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="18" x="0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="19" x="-0.635" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="20" x="-1.905" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="21" x="-3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="22" x="-4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="23" x="-5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="24" x="-6.985" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="16" x="3.175" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="15" x="4.445" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="14" x="5.715" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="13" x="6.985" y="5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="9" x="3.175" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="10" x="4.445" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="11" x="5.715" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<smd name="12" x="6.985" y="-5.0292" dx="0.6604" dy="2.032" layer="1"/>
+<text x="-5.842" y="-0.762" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-8.128" y="-3.556" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<rectangle x1="-7.239" y1="-3.8608" x2="-6.731" y2="-3.7338" layer="21"/>
+<rectangle x1="-7.239" y1="-5.334" x2="-6.731" y2="-3.8608" layer="51"/>
+<rectangle x1="-5.969" y1="-3.8608" x2="-5.461" y2="-3.7338" layer="21"/>
+<rectangle x1="-5.969" y1="-5.334" x2="-5.461" y2="-3.8608" layer="51"/>
+<rectangle x1="-4.699" y1="-3.8608" x2="-4.191" y2="-3.7338" layer="21"/>
+<rectangle x1="-4.699" y1="-5.334" x2="-4.191" y2="-3.8608" layer="51"/>
+<rectangle x1="-3.429" y1="-3.8608" x2="-2.921" y2="-3.7338" layer="21"/>
+<rectangle x1="-3.429" y1="-5.334" x2="-2.921" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.159" y1="-5.334" x2="-1.651" y2="-3.8608" layer="51"/>
+<rectangle x1="-2.159" y1="-3.8608" x2="-1.651" y2="-3.7338" layer="21"/>
+<rectangle x1="-0.889" y1="-3.8608" x2="-0.381" y2="-3.7338" layer="21"/>
+<rectangle x1="-0.889" y1="-5.334" x2="-0.381" y2="-3.8608" layer="51"/>
+<rectangle x1="0.381" y1="-3.8608" x2="0.889" y2="-3.7338" layer="21"/>
+<rectangle x1="0.381" y1="-5.334" x2="0.889" y2="-3.8608" layer="51"/>
+<rectangle x1="1.651" y1="-3.8608" x2="2.159" y2="-3.7338" layer="21"/>
+<rectangle x1="1.651" y1="-5.334" x2="2.159" y2="-3.8608" layer="51"/>
+<rectangle x1="-7.239" y1="3.8608" x2="-6.731" y2="5.334" layer="51"/>
+<rectangle x1="-7.239" y1="3.7338" x2="-6.731" y2="3.8608" layer="21"/>
+<rectangle x1="-5.969" y1="3.7338" x2="-5.461" y2="3.8608" layer="21"/>
+<rectangle x1="-5.969" y1="3.8608" x2="-5.461" y2="5.334" layer="51"/>
+<rectangle x1="-4.699" y1="3.7338" x2="-4.191" y2="3.8608" layer="21"/>
+<rectangle x1="-4.699" y1="3.8608" x2="-4.191" y2="5.334" layer="51"/>
+<rectangle x1="-3.429" y1="3.7338" x2="-2.921" y2="3.8608" layer="21"/>
+<rectangle x1="-3.429" y1="3.8608" x2="-2.921" y2="5.334" layer="51"/>
+<rectangle x1="-2.159" y1="3.7338" x2="-1.651" y2="3.8608" layer="21"/>
+<rectangle x1="-2.159" y1="3.8608" x2="-1.651" y2="5.334" layer="51"/>
+<rectangle x1="-0.889" y1="3.7338" x2="-0.381" y2="3.8608" layer="21"/>
+<rectangle x1="-0.889" y1="3.8608" x2="-0.381" y2="5.334" layer="51"/>
+<rectangle x1="0.381" y1="3.7338" x2="0.889" y2="3.8608" layer="21"/>
+<rectangle x1="0.381" y1="3.8608" x2="0.889" y2="5.334" layer="51"/>
+<rectangle x1="1.651" y1="3.7338" x2="2.159" y2="3.8608" layer="21"/>
+<rectangle x1="1.651" y1="3.8608" x2="2.159" y2="5.334" layer="51"/>
+<rectangle x1="2.921" y1="3.7338" x2="3.429" y2="3.8608" layer="21"/>
+<rectangle x1="4.191" y1="3.7338" x2="4.699" y2="3.8608" layer="21"/>
+<rectangle x1="5.461" y1="3.7338" x2="5.969" y2="3.8608" layer="21"/>
+<rectangle x1="6.731" y1="3.7338" x2="7.239" y2="3.8608" layer="21"/>
+<rectangle x1="2.921" y1="3.8608" x2="3.429" y2="5.334" layer="51"/>
+<rectangle x1="4.191" y1="3.8608" x2="4.699" y2="5.334" layer="51"/>
+<rectangle x1="5.461" y1="3.8608" x2="5.969" y2="5.334" layer="51"/>
+<rectangle x1="6.731" y1="3.8608" x2="7.239" y2="5.334" layer="51"/>
+<rectangle x1="2.921" y1="-3.8608" x2="3.429" y2="-3.7338" layer="21"/>
+<rectangle x1="4.191" y1="-3.8608" x2="4.699" y2="-3.7338" layer="21"/>
+<rectangle x1="5.461" y1="-3.8608" x2="5.969" y2="-3.7338" layer="21"/>
+<rectangle x1="6.731" y1="-3.8608" x2="7.239" y2="-3.7338" layer="21"/>
+<rectangle x1="2.921" y1="-5.334" x2="3.429" y2="-3.8608" layer="51"/>
+<rectangle x1="4.191" y1="-5.334" x2="4.699" y2="-3.8608" layer="51"/>
+<rectangle x1="5.461" y1="-5.334" x2="5.969" y2="-3.8608" layer="51"/>
+<rectangle x1="6.731" y1="-5.334" x2="7.239" y2="-3.8608" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MAX7219">
+<wire x1="-10.16" y1="20.32" x2="-10.16" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="7.62" y2="-22.86" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="7.62" y2="20.32" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="-10.16" y2="20.32" width="0.4064" layer="94"/>
+<text x="-10.16" y="20.955" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DIG2" x="12.7" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="DIG3" x="12.7" y="10.16" length="middle" direction="out" rot="R180"/>
+<pin name="DIG4" x="12.7" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="DIG5" x="12.7" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="DIG6" x="12.7" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="DIG7" x="12.7" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="SEGA" x="12.7" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SEGB" x="12.7" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="SEGC" x="12.7" y="-7.62" length="middle" direction="out" rot="R180"/>
+<pin name="SEGD" x="12.7" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="SEGE" x="12.7" y="-12.7" length="middle" direction="out" rot="R180"/>
+<pin name="SEGF" x="12.7" y="-15.24" length="middle" direction="out" rot="R180"/>
+<pin name="SEGG" x="12.7" y="-17.78" length="middle" direction="out" rot="R180"/>
+<pin name="SEGDP" x="12.7" y="-20.32" length="middle" direction="out" rot="R180"/>
+<pin name="DIG1" x="12.7" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="DIG0" x="12.7" y="17.78" length="middle" direction="out" rot="R180"/>
+<pin name="DIN" x="-15.24" y="7.62" length="middle" direction="in"/>
+<pin name="DOUT" x="-15.24" y="5.08" length="middle" direction="out"/>
+<pin name="LOAD" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="CLK" x="-15.24" y="17.78" length="middle" direction="in" function="clk"/>
+<pin name="ISET" x="-15.24" y="0" length="middle" direction="in"/>
+<pin name="GND@2" x="-15.24" y="-20.32" length="middle" direction="pwr"/>
+<pin name="GND@1" x="-15.24" y="-17.78" length="middle" direction="pwr"/>
+<pin name="VCC" x="-15.24" y="-15.24" length="middle" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MAX7219CWG">
+<gates>
+<gate name="G$1" symbol="MAX7219" x="10.16" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="SO24L">
+<connects>
+<connect gate="G$1" pin="CLK" pad="13"/>
+<connect gate="G$1" pin="DIG0" pad="2"/>
+<connect gate="G$1" pin="DIG1" pad="11"/>
+<connect gate="G$1" pin="DIG2" pad="6"/>
+<connect gate="G$1" pin="DIG3" pad="7"/>
+<connect gate="G$1" pin="DIG4" pad="3"/>
+<connect gate="G$1" pin="DIG5" pad="10"/>
+<connect gate="G$1" pin="DIG6" pad="5"/>
+<connect gate="G$1" pin="DIG7" pad="8"/>
+<connect gate="G$1" pin="DIN" pad="1"/>
+<connect gate="G$1" pin="DOUT" pad="24"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="9"/>
+<connect gate="G$1" pin="ISET" pad="18"/>
+<connect gate="G$1" pin="LOAD" pad="12"/>
+<connect gate="G$1" pin="SEGA" pad="14"/>
+<connect gate="G$1" pin="SEGB" pad="16"/>
+<connect gate="G$1" pin="SEGC" pad="20"/>
+<connect gate="G$1" pin="SEGD" pad="23"/>
+<connect gate="G$1" pin="SEGDP" pad="22"/>
+<connect gate="G$1" pin="SEGE" pad="21"/>
+<connect gate="G$1" pin="SEGF" pad="15"/>
+<connect gate="G$1" pin="SEGG" pad="17"/>
+<connect gate="G$1" pin="VCC" pad="19"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9290,7 +9335,7 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 </class>
 </classes>
 <parts>
-<part name="IC1" library="maxim" deviceset="MAX7219CNG" device=""/>
+<part name="IC1" library="max7219" deviceset="MAX7219CWG" device=""/>
 <part name="IC2" library="atmel" deviceset="MEGA8" device="-AI"/>
 <part name="Q1" library="crystal" deviceset="CRYSTAL" device="HC49U-V" value="12 MHz"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -9361,7 +9406,7 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
-<part name="IC4" library="ds1307_pcf8583" deviceset="DS1307" device=""/>
+<part name="IC4" library="ds1307_pcf8583" deviceset="DS1307" device="Z" value="DS1307Z"/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49U-V" value="32kHz"/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="R15" library="resistor" deviceset="R-EU_" device="M0805" value="10K"/>
@@ -9370,6 +9415,10 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
+<part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
+<part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -9456,6 +9505,10 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 <instance part="+3V6" gate="G$1" x="215.76" y="-12.7" rot="R270"/>
 <instance part="P+6" gate="1" x="186.87" y="5.52"/>
 <instance part="SUPPLY17" gate="GND" x="187.18" y="-15.51"/>
+<instance part="+3V7" gate="G$1" x="-18.91" y="-35.24"/>
+<instance part="+3V8" gate="G$1" x="-7.91" y="-36.69" rot="R90"/>
+<instance part="SUPPLY23" gate="GND" x="7.75" y="-36.69" rot="R90"/>
+<instance part="S2" gate="G$1" x="-0.11" y="-36.69"/>
 </instances>
 <busses>
 </busses>
@@ -10468,6 +10521,11 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 <wire x1="-19.2" y1="-41.22" x2="-19.2" y2="-41.39" width="0.1524" layer="91"/>
 <junction x="-19.2" y="-41.22"/>
 </segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="4.97" y1="-36.69" x2="5.21" y2="-36.69" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$53" class="0">
 <segment>
@@ -10570,6 +10628,16 @@ PCF8583: Clock/calendar with 240 x 8-bit RAM&lt;/b&gt;
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="-18.91" y1="-37.78" x2="-18.91" y2="-37.72" width="0.1524" layer="91"/>
 <junction x="-18.91" y="-37.78"/>
+<pinref part="+3V7" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="-5.43" y1="-36.69" x2="-5.37" y2="-36.69" width="0.1524" layer="91"/>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="-5.37" y1="-36.69" x2="-5.19" y2="-36.69" width="0.1524" layer="91"/>
+<junction x="-5.37" y="-36.69"/>
+<pinref part="S2" gate="G$1" pin="1"/>
+<wire x1="-5.19" y1="-36.69" x2="-5.06" y2="-36.69" width="0.1524" layer="91"/>
+<junction x="-5.19" y="-36.69"/>
 </segment>
 </net>
 <net name="N$3" class="0">
