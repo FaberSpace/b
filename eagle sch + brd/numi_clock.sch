@@ -10015,6 +10015,76 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="sym">
+<description>LT-Spice library generated with :&lt;br&gt;
+import-ltspice.ulp&lt;br&gt;
+from: E:/Programme/LTC/LTspiceIV/lib/sym/*.asy&lt;br&gt;
+at 12.06.2012 10:18:08</description>
+<packages>
+<package name="R0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="-0.635" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LED">
+<wire x1="0" y1="-6.985" x2="5.08" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.175" x2="5.08" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-3.175" x2="2.54" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="0" y1="-3.175" x2="2.54" y2="-6.985" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-6.985" x2="2.54" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-5.08" x2="10.795" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-5.08" x2="10.16" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-7.62" x2="10.795" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="11.43" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="-4.445" x2="6.484078125" y2="-3.877040625" width="0.1524" layer="94" curve="153.435012"/>
+<wire x1="8.89" y1="-4.445" x2="11.295921875" y2="-5.0129625" width="0.1524" layer="94" curve="153.434886"/>
+<wire x1="8.89" y1="-6.985" x2="6.484078125" y2="-6.417040625" width="0.1524" layer="94" curve="153.435012"/>
+<wire x1="8.89" y1="-6.985" x2="11.295921875" y2="-7.5529625" width="0.1524" layer="94" curve="153.434886"/>
+<text x="3.81" y="0" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="3.81" y="-10.16" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="+" x="2.54" y="0" visible="off" length="point" direction="pas"/>
+<text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<pin name="-" x="2.54" y="-10.16" visible="off" length="point" direction="pas"/>
+<text x="2.54" y="-10.16" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LED" prefix="D" uservalue="yes">
+<description>Light Emitting Diode</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0805">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="NONE" constant="no"/>
+<attribute name="SPICETYPE" value="diode"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10086,6 +10156,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
 <part name="SV8" library="con-lstb" deviceset="MA04-1" device="" value="conn digits"/>
 <part name="SV3" library="con-lstb" deviceset="MA08-1" device=""/>
+<part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
+<part name="D3" library="sym" deviceset="LED" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10153,6 +10225,8 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <instance part="SUPPLY25" gate="GND" x="81.28" y="96.52" rot="R270"/>
 <instance part="SV8" gate="1" x="-142.24" y="43.18" rot="MR180"/>
 <instance part="SV3" gate="1" x="7.62" y="43.18"/>
+<instance part="SUPPLY8" gate="GND" x="116.84" y="50.8"/>
+<instance part="D3" gate="G$1" x="114.3" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -10280,6 +10354,10 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 <wire x1="86.36" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<pinref part="D3" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10740,6 +10818,18 @@ Various common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.</description>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <junction x="96.52" y="96.52"/>
 <wire x1="96.52" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="ADC6"/>
+<wire x1="-78.74" y1="129.54" x2="-76.2" y2="129.54" width="0.1524" layer="91"/>
+<label x="-76.2" y="129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="116.84" y1="63.5" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
+<label x="116.84" y="66.04" size="1.778" layer="95"/>
+<pinref part="D3" gate="G$1" pin="+"/>
 </segment>
 </net>
 </nets>
