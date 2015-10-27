@@ -17,12 +17,15 @@
   - [x] Functii de baza
   - [ ] Software matur
   
----- 
-Referinte:
-> [Biblioteca LedControl](http://playground.arduino.cc/Main/LedControl)
-> [Biblioteca RTC](https://github.com/adafruit/RTClib)
-> [Biblioteca LM75](https://github.com/thefekete/LM75)
-> TBA
 ----
+
+###Referinte:
+- [Biblioteca LedControl](http://playground.arduino.cc/Main/LedControl)
+- [Biblioteca RTC](https://github.com/adafruit/RTClib)
+- [Biblioteca LM75](https://github.com/thefekete/LM75)
+- TBA
+
+----
+
 ###Evolutie
  > TBA
