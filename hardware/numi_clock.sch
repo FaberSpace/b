@@ -10399,11 +10399,6 @@ at 12.06.2012 10:18:08</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="-172.72" y1="104.14" x2="-172.72" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-172.72" y="109.22"/>
-<pinref part="IC1" gate="G$1" pin="AREF"/>
-<wire x1="-129.54" y1="137.16" x2="-127" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-127" y1="137.16" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
-<junction x="-172.72" y="137.16"/>
-<junction x="-127" y="137.16"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
@@ -10686,11 +10681,6 @@ at 12.06.2012 10:18:08</description>
 <label x="132.08" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="58.42" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<label x="88.9" y="50.8" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="-78.74" y1="132.08" x2="-76.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="-76.2" y="132.08" size="1.778" layer="95"/>
@@ -10786,9 +10776,9 @@ at 12.06.2012 10:18:08</description>
 <label x="-91.44" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="ADC7"/>
-<wire x1="-78.74" y1="127" x2="-76.2" y2="127" width="0.1524" layer="91"/>
-<label x="-76.2" y="127" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC0(ADC0)"/>
+<wire x1="-78.74" y1="144.78" x2="-76.2" y2="144.78" width="0.1524" layer="91"/>
+<label x="-76.2" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MINUTE" class="0">
